@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Check</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+</head>
+
+<body style="background-image: url("../../public/assets/new.gif");">
+  {{>header}} <br><br>
+  <img src="assets/favicon_io/new.gif" height = "300px" width = "450px">
+  <h4>Use this site to check the weather:</h4>
+  <form>
+    <input type="text" placeholder="Enter Location" name="address" id="address"><br><br>
+    <button>search</button>
+  
+  </form>
+  <h2> </h2>
+  <p id="msg1"></p>
+  
+  {{>footer}}
+</body>
+<script src="/assets/js/app.js"></script>
+
+</html>
